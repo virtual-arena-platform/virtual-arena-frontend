@@ -104,7 +104,7 @@ npm start
 
 ## 🙏 Acknowledgments
 
-- [Virtual Arena Backend](https://github.com/yourusername/virtual-arena-backendhttps://github.com/virtual-arena-platform/virtual-arena-backend)
+- [Virtual Arena Backend](https://github.com/virtual-arena-platform/virtual-arena-backend)
 - All our contributors and supporters
 
 ---
