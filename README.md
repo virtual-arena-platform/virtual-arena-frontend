@@ -4,12 +4,17 @@
   <img src="https://virtualarena.tech/wp-content/uploads/2023/06/Virtual-Arena-Flaticon.png" alt="Virtual Arena Logo" width="200"/>
   <br>
   <em>A dynamic article sharing platform fostering meaningful discussions and knowledge exchange</em>
+  <br>
+  <a href="https://virtual-arena-frontend.onrender.com">View Live Demo</a>
 </p>
 
+## ⚠️ Important Note
+> **First Request Delay**: Since this application is hosted on Render's free tier, the server enters a sleep state after 15 minutes of inactivity. When you make your first request, the server needs to wake up, which can take up to 30-60 seconds. Subsequent requests will work normally.
 
 ## 📋 Overview
 
 Virtual Arena is a modern article sharing platform that emphasizes user engagement and community interaction. Create, share, and discover compelling content while building meaningful connections with fellow knowledge enthusiasts.
+
 
 ## ✨ Key Features
 
@@ -74,12 +79,13 @@ npm install
 npm start
 ```
 
-### Development Flow
+## 🔄 Development Workflow
+
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+2. Create feature branch: `git checkout -b feature/YourFeature`
+3. Commit changes: `git commit -m 'Add YourFeature'`
+4. Push to branch: `git push origin feature/YourFeature`
+5. Submit Pull Request
 
 ## 🗺️ Roadmap
 
@@ -113,4 +119,6 @@ npm start
   Made with ❤️ by <a href="https://github.com/KonstantineVashalomidze">Konstantine Vashalomidze</a>
   <br>
   <sub>Want to contribute? Feel free to open a PR!</sub>
+    <br>
+  <sub>Part of the Virtual Arena Platform</sub>
 </p>
