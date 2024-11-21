@@ -2,12 +2,9 @@
 
 # dependencies
 /node_modules
-Dockerfile
 /.pnp
 .pnp.js
 .idea
-.dockerignore
-nginx.conf
 
 # testing
 /coverage
