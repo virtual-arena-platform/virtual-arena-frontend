@@ -1,124 +1,34 @@
-# Virtual Arena 🏛️
+# Virtual Arena Frontend
 
-<p align="center">
-  <img src="https://virtualarena.tech/wp-content/uploads/2023/06/Virtual-Arena-Flaticon.png" alt="Virtual Arena Logo" width="200"/>
-  <br>
-  <em>A dynamic article sharing platform fostering meaningful discussions and knowledge exchange</em>
-  <br>
-  <a href="https://virtual-arena-frontend.onrender.com">View Live Demo</a>
-</p>
+Frontend for Virtual Arena, an article-sharing platform. Built with React, it covers article creation and browsing, comments, and user profiles, and talks to the Spring Boot backend over a REST API.
 
-## ⚠️ Important Note
-> **First Request Delay**: Since this application is hosted on Render's free tier, the server enters a sleep state after 15 minutes of inactivity. When you make your first request, the server needs to wake up, which can take up to 30-60 seconds. Subsequent requests will work normally.
+Live demo: https://virtual-arena-frontend.onrender.com
 
-## 📋 Overview
+## Features
 
-Virtual Arena is a modern article sharing platform that emphasizes user engagement and community interaction. Create, share, and discover compelling content while building meaningful connections with fellow knowledge enthusiasts.
+JWT-based authentication with refresh tokens, email verification, protected routes, and profile management. Article creation and editing with a Draft.js rich text editor, plus liking, bookmarking, and social sharing. Search with filters, a featured articles section, and paginated latest articles with infinite scroll. Nested comments with replies, detailed user profiles, and following is in progress.
 
+## Tech stack
 
-## ✨ Key Features
+React 18, Material-UI, Redux Toolkit, Draft.js, React Router v6, Axios, date-fns, and React Toastify.
 
-### 🔐 User Authentication & Authorization
-- Secure JWT-based authentication with refresh tokens
-- Email verification system
-- Protected routes and profile management
-- Role-based access control
+## Running locally
 
-### 📝 Article Management
-- Intuitive article creation and editing interface
-- Rich text editing with Draft.js
-- Heart and bookmark functionality
-- Social sharing capabilities
-- Advanced search with filters
+You will need Node.js 14 or higher, npm or yarn, and Git.
 
-### 🎨 Interactive UI Components
-- Responsive design optimized for all devices
-- Featured articles showcase (Top 5)
-- Paginated latest articles (9 per page)
-- Infinite scroll implementation
-
-### 🤝 Social Engagement
-- Nested comments system
-- Real-time comment replies
-- Detailed user profiles
-- Article bookmarking
-- User following system (Coming Soon)
-
-## 🛠️ Technologies Used
-
-### Frontend Stack
-- **Core**: React 18
-- **UI Framework**: Material-UI (MUI)
-- **State Management**: Redux Toolkit
-- **Editor**: Draft.js
-- **Routing**: React Router v6
-- **API Client**: Axios
-- **Date Handling**: date-fns
-- **Notifications**: React Toastify
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-- Git
-
-### Installation
-
-```bash
-# Clone the repository
+```
 git clone https://github.com/virtual-arena-platform/virtual-arena-frontend.git
-
-# Navigate to project directory
-cd virtual-arena
-
-# Install dependencies
+cd virtual-arena-frontend
 npm install
-
-# Start development server
 npm start
 ```
 
-## 🔄 Development Workflow
+## Hosting note
 
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/YourFeature`
-3. Commit changes: `git commit -m 'Add YourFeature'`
-4. Push to branch: `git push origin feature/YourFeature`
-5. Submit Pull Request
+The backend runs on Render's free tier, so it sleeps after 15 minutes without traffic. The first request after that can take 30 to 60 seconds while it wakes up; after that it responds normally.
 
-## 🗺️ Roadmap
+## Related
 
-### Q1 2025
-- [ ] Enhanced filtering system
-- [ ] OAuth2 integration
-- [ ] Real-time notifications
+Backend: https://github.com/virtual-arena-platform/virtual-arena-backend
 
-### Q2 2025
-- [ ] Dark mode implementation
-- [ ] Analytics dashboard
-- [ ] Mobile application
-
-### Q3 2025
-- [ ] Internationalization
-- [ ] Advanced search features
-- [ ] Community features
-
-## 👥 Team
-
-- **Konstantine Vashalomidze** - _Initial work_ - [GitHub](https://github.com/KonstantineVashalomidze)
-
-## 🙏 Acknowledgments
-
-- [Virtual Arena Backend](https://github.com/virtual-arena-platform/virtual-arena-backend)
-- All our contributors and supporters
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/KonstantineVashalomidze">Konstantine Vashalomidze</a>
-  <br>
-  <sub>Want to contribute? Feel free to open a PR!</sub>
-    <br>
-  <sub>Part of the Virtual Arena Platform</sub>
-</p>
+Author: Konstantine Vashalomidze
